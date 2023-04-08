@@ -33,8 +33,8 @@ class Students():
 class AQA(Students) :
     def __init__(self, firstname, secondname, age, sex) :
         super().__init__(firstname, secondname, age, sex)
-        self.__occupation = "AQA student"
-        # super().set_occupation("AQA student")
+        # self.__occupation = "AQA student"
+        super().set_occupation("AQA student")
 
     def study(self) :
         print(f'{self.firstname} {self.lastname}  is studying for AQA exam !')
@@ -58,6 +58,7 @@ mary.do_hw()
 mary.get_occupation()
 mary.set_occupation('AQA Python team-lead')
 mary.get_occupation()
+alex.do_hw()
 
 
 # 5.2. Cоздайте репозиторий на Github и отправте файл с домашним заданием в этот удаленный репозиторий
