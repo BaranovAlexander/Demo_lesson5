@@ -23,7 +23,6 @@ class Students():
         self.__occupation = occupation
         print(f'Set occupation : {self.firstname} {self.lastname} is {self.__occupation}')
 
-
     def study(self):
         print(f'{self.firstname} {self.lastname} is studying!')
 
@@ -59,8 +58,6 @@ mary.do_hw()
 mary.get_occupation()
 mary.set_occupation('AQA Python team-lead')
 mary.get_occupation()
-
-
 
 
 # 5.2. Cоздайте репозиторий на Github и отправте файл с домашним заданием в этот удаленный репозиторий
